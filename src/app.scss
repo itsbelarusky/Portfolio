@@ -1,0 +1,28 @@
+.app {
+  height: 100vh;
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: lightsalmon;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+    //================делаем переход на главную плавным==================
+
+    //============прикручиваем скролл к началу компонента=================
+    scroll-snap-type: y mandatory;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+
+    //============для всех компонентов ширина и высота====================
+    > *{
+      width: 100vw;
+      height: calc(100vh - 70px);
+      //==========привязываем прокрутку к началу компонентов==============
+      scroll-snap-align: start;
+
+    }
+  }
+}
