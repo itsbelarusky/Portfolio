@@ -8,7 +8,8 @@
   position: fixed;
   top: 0;
   //=========для отображения бара при прокрутки===============
-  z-index: 2;
+  z-index: 3;
+  transition: all 1s ease;
 
   .wrapper {
     padding: 10px 30px;
@@ -49,7 +50,7 @@
 
       .hamburger {
         width: 35px;
-        height: 25px;
+        height: 28px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -61,7 +62,9 @@
           background-color: $mainColor;
           //=====для бургера=========
           transform-origin: left;
-          transition: all 2s ease;
+          transition: all 1.5s ease;
+
+
         }
       }
     }
@@ -71,6 +74,7 @@
   background-color: $mainColor;
     color: white;
     .hamburger{
+
       span{
         &:first-child{
           background-color: white;
