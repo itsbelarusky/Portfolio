@@ -11,7 +11,7 @@
     //================делаем переход на главную плавным==================
 
     //============прикручиваем скролл к началу компонента=================
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     &::-webkit-scrollbar{
       display: none;
     }
