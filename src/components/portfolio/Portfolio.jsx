@@ -1,11 +1,13 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./portfolio.scss"
 import PortfolioList from "./portfoliolist/PortfolioList";
+import {featurePortfolio, webPortfolio, layoutPortfolio, designPortfolio, contentPortfolio} from "../../data"
 
 
 const Portfolio = () => {
 
     const [selected, setSelected] = useState("featured")
+    const [data, setData] = useState([])
 
     const list = [
         {
@@ -31,6 +33,29 @@ const Portfolio = () => {
 
     ]
 
+    useEffect(() => {
+        switch (selected) {
+            case "featured":
+                setData(featurePortfolio);
+                break;
+            case "web":
+                setData(webPortfolio);
+                break;
+            case "layout":
+                setData(layoutPortfolio);
+                break;
+            case "design":
+                setData(designPortfolio);
+                break;
+            case "content":
+                setData(contentPortfolio);
+                break;
+            default:
+                setData(featurePortfolio);
+
+        }
+    }, [selected])
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
@@ -43,32 +68,14 @@ const Portfolio = () => {
                     />))}
             </ul>
             <div className="container">
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-                <div className="item">
-                    <img src="assets/slider.jpg" alt=""/>
-                    <h3>Crypto App</h3>
-                </div>
-
+                {data.map((d) => (
+                    <div className="item">
+                        <img src={d.img}/>
+                        <h3>{d.title}</h3>
+                    </div>
+                ))}
             </div>
+
         </div>
     );
 };

@@ -102,31 +102,64 @@ export const designPortfolio = [
     {
         id: 1,
         title: "BAM layout",
-        img: "",
+        img: "assets/BamLayout.png",
     },
     {
         id: 2,
         title: "Flower layout",
-        img: "",
+        img: "assets/FlowerLayout.png",
     },
     {
         id: 3,
         title: "Flower layout",
-        img: "",
+        img: "assets/FlowerLayout.png",
     },
     {
         id: 4,
         title: "Flower layout",
-        img: "",
+        img: "assets/FlowerLayout.png",
     },
     {
         id: 5,
         title: "Flower layout",
-        img: "",
+        img: "assets/FlowerLayout.png",
     },
     {
         id: 6,
         title: "Flower layout",
-        img: "",
+        img: "assets/FlowerLayout.png",
+    },
+]
+
+export const contentPortfolio = [
+    {
+        id: 1,
+        title: "BAM layout",
+        img: "assets/BamLayout.png",
+    },
+    {
+        id: 2,
+        title: "Flower layout",
+        img: "assets/FlowerLayout.png",
+    },
+    {
+        id: 3,
+        title: "Flower layout",
+        img: "assets/FlowerLayout.png",
+    },
+    {
+        id: 4,
+        title: "Flower layout",
+        img: "assets/FlowerLayout.png",
+    },
+    {
+        id: 5,
+        title: "Flower layout",
+        img: "assets/FlowerLayout.png",
+    },
+    {
+        id: 6,
+        title: "Flower layout",
+        img: "assets/FlowerLayout.png",
     },
 ]
