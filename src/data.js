@@ -163,3 +163,28 @@ export const contentPortfolio = [
         img: "assets/FlowerLayout.png",
     },
 ]
+
+export const dataWork = [
+    {
+        id: 1,
+        icon: "./assets/mobile.png",
+        title: "Web design",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        img: "assets/SliderImage2"
+    },
+    {
+        id: 2,
+        icon: "./assets/globe.png",
+        title: "Mobile App",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        img: "assets/SliderImage2"
+    },
+    {
+        id: 3,
+        icon: "./assets/mobile.png",
+        title: "Web design",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        img: "assets/SliderImage2"
+    },
+
+]
