@@ -214,7 +214,7 @@ export const dataTest = [
         title: "Kufar Moderator",
         img: "assets/KufarModerator2.jpg",
         icon: "assets/linkedin.png",
-        desc: "I really liked your project, everything is beautiful and harmonious and practical",
+        desc: "I really liked your project, everything is beautiful and harmonious and practical!!!",
     },
 
 ]
