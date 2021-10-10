@@ -49,7 +49,6 @@
   justify-content: center;
   color: white;
   position: relative;
-  cursor: pointer;
   transition: all 0.5s ease;
 }
 @media (max-width: 768px) {
@@ -59,8 +58,16 @@
   }
 }
 .portfolio .container .item h3 {
+  cursor: pointer;
   position: absolute;
   font-size: 20px;
+}
+.portfolio .container .item h3 a {
+  color: #15023a;
+  text-decoration: none;
+}
+.portfolio .container .item h3 a:hover {
+  color: #f0efef;
 }
 .portfolio .container .item img {
   width: 100%;

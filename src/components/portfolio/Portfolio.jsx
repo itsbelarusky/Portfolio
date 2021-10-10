@@ -71,11 +71,10 @@ const Portfolio = () => {
                 {data.map((d) => (
                     <div className="item">
                         <img src={d.img}/>
-                        <h3>{d.title}</h3>
+                        <h3><a href={d.src}>{d.title}</a></h3>
                     </div>
                 ))}
             </div>
-
         </div>
     );
 };

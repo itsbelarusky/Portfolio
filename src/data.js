@@ -3,31 +3,38 @@ export const featurePortfolio = [
         id: 1,
         title: "Crypto App",
         img: "assets/CryptoApp.png",
+        src: "https://github.com/itsbelarusky/MycryptoApp.git"
+
     },
     {
         id: 2,
         title: "Portfolio App",
         img: "assets/PortfolioImage.png",
+        src: "https://itsbelarusky.github.io"
     },
     {
         id: 3,
         title: "Social Network",
         img: "assets/SocialNetwork.png",
+        src: "https://github.com/itsbelarusky/React-project.git"
     },
     {
         id: 4,
-        title: "Crypto App",
-        img: "assets/CryptoApp.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 5,
-        title: "Crypto App",
-        img: "assets/CryptoApp.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 6,
-        title: "Crypto App",
-        img: "assets/CryptoApp.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
 
 ]
@@ -37,31 +44,37 @@ export const webPortfolio = [
         id: 1,
         title: "Portfolio App",
         img: "assets/PortfolioImage.png",
+        src: "https://itsbelarusky.github.io"
     },
     {
         id: 2,
-        title: "Portfolio App",
-        img: "assets/PortfolioImage.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 3,
-        title: "Portfolio App",
-        img: "assets/PortfolioImage.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 4,
-        title: "Portfolio App",
-        img: "assets/PortfolioImage.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 5,
-        title: "Portfolio App",
-        img: "assets/PortfolioImage.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 6,
-        title: "Portfolio App",
-        img: "assets/PortfolioImage.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
 ]
 
@@ -70,97 +83,103 @@ export const layoutPortfolio = [
         id: 1,
         title: "BAM layout",
         img: "assets/BamLayout.png",
+        src: "https://github.com/itsbelarusky/Sass.git"
     },
     {
         id: 2,
         title: "Flower layout",
         img: "assets/FlowerLayout.png",
+        src: "https://github.com/itsbelarusky/Sass.git"
     },
     {
         id: 3,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 4,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 5,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
     {
         id: 6,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
+        src: "#portfolio"
     },
 ]
 
 export const designPortfolio = [
     {
         id: 1,
-        title: "BAM layout",
-        img: "assets/BamLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 2,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 3,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 4,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 5,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 6,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
 ]
 
 export const contentPortfolio = [
     {
         id: 1,
-        title: "BAM layout",
-        img: "assets/BamLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 2,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 3,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 4,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 5,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
     {
         id: 6,
-        title: "Flower layout",
-        img: "assets/FlowerLayout.png",
+        title: "Coming Soon",
+        img: "assets/ComingSoon.png",
     },
 ]
 //=================data for Works====================================
