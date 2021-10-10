@@ -31,7 +31,7 @@
 }
 @media (max-width: 768px) {
   .works .slider {
-    height: 100vh;
+    height: 89vh;
     flex-direction: column;
     justify-content: center;
   }

@@ -13,6 +13,7 @@
         flex: 0.5;
         overflow: hidden;
 
+
         .imgContainer {
             width: 1000px;
             height: 1000px;
@@ -51,6 +52,7 @@
 
             @include mobile{
                 padding-left: 0;
+                margin-top: -40px;
                 align-items: center;
             }
 
@@ -71,7 +73,7 @@
                 font-size: 35px;
 
                 @include mobile{
-                    font-size: 20px;
+                    font-size: 25px;
                 }
 
                 span{
@@ -103,6 +105,9 @@
             img {
                 width: 50px;
                 animation: arrowBlink 2s infinite;
+                @include mobile{
+                    width: 70px;
+                }
             }
             @keyframes arrowBlink {
                 100%{

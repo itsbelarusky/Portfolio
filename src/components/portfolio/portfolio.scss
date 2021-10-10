@@ -51,7 +51,6 @@
             justify-content: center;
             color: white;
             position: relative;
-
             transition: all 0.5s ease;
 
             @include mobile{
@@ -64,7 +63,7 @@
                 position: absolute;
                 font-size: 20px;
                 a{
-                    color: #15023a;
+                    color: $mainColor;
                     text-decoration: none;
                     &:hover{
                         color: #f0efef;

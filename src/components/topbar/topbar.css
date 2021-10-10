@@ -8,6 +8,11 @@
   z-index: 3;
   transition: all 1s ease;
 }
+@media (max-width: 768px) {
+  .topbar {
+    height: 50px;
+  }
+}
 .topbar .wrapper {
   padding: 10px 30px;
   display: flex;
@@ -27,7 +32,7 @@
 }
 @media (max-width: 768px) {
   .topbar .wrapper .left .logo {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .topbar .wrapper .left .itemContainer {

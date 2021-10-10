@@ -50,6 +50,7 @@
 @media (max-width: 768px) {
   .intro .right .wrapper {
     padding-left: 0;
+    margin-top: -40px;
     align-items: center;
   }
 }
@@ -70,7 +71,7 @@
 }
 @media (max-width: 768px) {
   .intro .right .wrapper h3 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 .intro .right .wrapper h3 span {
@@ -96,6 +97,11 @@
 .intro .right a img {
   width: 50px;
   animation: arrowBlink 2s infinite;
+}
+@media (max-width: 768px) {
+  .intro .right a img {
+    width: 70px;
+  }
 }
 @keyframes arrowBlink {
   100% {
