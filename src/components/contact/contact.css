@@ -14,6 +14,11 @@
 .contact .left img {
   height: 100%;
 }
+@media (max-width: 768px) {
+  .contact .left img {
+    margin-top: 10px;
+  }
+}
 .contact .right {
   flex: 1;
   display: flex;

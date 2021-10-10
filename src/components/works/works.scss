@@ -8,6 +8,7 @@
     justify-content: center;
     position: relative;
 
+
     .arrow{
         height: 70px;
         position: absolute;
@@ -45,6 +46,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @include mobile{
+
+            }
 
             .item {
                 width: 800px;
@@ -57,8 +61,8 @@
 
                 @include mobile{
                     width: 90%;
-                    height: 180px;
-                    margin: 5px 0;
+                    height: 165px;
+                    margin: 10px 0;
 
                 }
 
@@ -97,6 +101,7 @@
 
                                 @include mobile{
                                     width: 20px;
+
                                 }
                             }
 
@@ -106,6 +111,7 @@
 
                             @include mobile{
                                 font-size: 13px;
+
                             }
                         }
                         p{
@@ -113,6 +119,8 @@
 
                             @include mobile{
                                 font-size: 9px;
+
+
                             }
 
                         }
@@ -124,6 +132,7 @@
 
                             @include mobile{
                                 font-size: 11px;
+
                             }
 
                         }

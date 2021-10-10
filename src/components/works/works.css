@@ -54,8 +54,8 @@
 @media (max-width: 768px) {
   .works .slider .container .item {
     width: 90%;
-    height: 180px;
-    margin: 5px 0;
+    height: 165px;
+    margin: 10px 0;
   }
 }
 .works .slider .container .item .left {
